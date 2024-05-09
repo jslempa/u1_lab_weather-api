@@ -13,7 +13,8 @@ async function getInfo() {
     icon.setAttribute(`src`, iconUrl)
     
     output.innerHTML = `
-        <h2>${res.data.location.name}</h2>
+        <h2>${res.data.location.name}, ${res.data.location.country}</h2>
+        <h3>${res.data.current.condition.text}</h3>
         <p>Temperature: ${res.data.current.temp_f}°F</p>
         <p>Feels Like: ${res.data.current.feelslike_f}°F</p>
         <p>Wind: ${res.data.current.wind_mph} mph</p>
