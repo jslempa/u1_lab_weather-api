@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}    
